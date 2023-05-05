@@ -20,7 +20,7 @@ a {
     display: flex;
     align-items: center;
     justify-content: center;
-    /* border: 5px solid red; */
+    /* border: 5spx solid red; */
 }
 
 /* Hero section */
@@ -46,9 +46,17 @@ a {
 #hero h1 {
     display: block;
     width: fit-content;
-    font-size: 3rem;
+    font-size: 3.5rem;
     position: relative;
     color: white;
+}
+#hero h1 span {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: crimson;
 }
 
 #hero .btn {
@@ -57,10 +65,16 @@ a {
     color: crimson;
     background-color: transparent;
     border: 2px solid crimson;
-    font-size: 1.5rem;
+    font-size: 1.8rem;
     text-transform: uppercase;
     letter-spacing: .1rem;
     margin-top: 30px;
-    transition: .3s ease background-color;
+    transition: .3s ease;
+    transition-property: background-color, color;
+}
+#hero .btn:hover {
+    color: white;
+    background-color: crimson;
+    
 }
 /* End Herro section */
