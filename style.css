@@ -42,6 +42,12 @@ a {
     opacity: .7;
     z-index: -1;
 }
+#hero .hero {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 50px;
+    justify-content: flex-start;
+}
 
 #hero h1 {
     display: block;
@@ -59,6 +65,7 @@ a {
     animation-delay: 2s;
 }
 #hero h1:nth-child(3) {
+    animation: text_reveal_name .5s ease forwards;
     animation-delay: 3s;
 }
 
@@ -102,6 +109,15 @@ a {
 }
 /* End Herro section */
 
+/* Services Section */
+#services {
+
+}
+#services .container {
+    flex-direction: column;
+}
+/* End Services Section */
+
 /* keyframes */
 @keyframes text_reveal_box {
     50% {
@@ -113,10 +129,15 @@ a {
         left: 100%;
     }
 }
-
 @keyframes text_reveal {
     100% {
         color: white;
+    }
+}
+@keyframes text_reveal_name {
+    100% {
+        color: crimson;
+        font-weight: 500;
     }
 }
 /* end keyframes */
