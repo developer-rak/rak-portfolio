@@ -368,6 +368,21 @@ p {
 }
 /* End About Section */
 
+/* Contact Section */
+#contact .contact {
+    flex-direction: column;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+#contact .contact-items {
+    width: 100%;
+}
+
+
+
+
+/* End Contact Section */
 
 /* keyframes */
 @keyframes text_reveal_box {
