@@ -23,6 +23,12 @@ a {
     /* border: 5spx solid red; */
 }
 
+img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
 /* Hero section */
 #hero {
     background-image: url(img/men.jpg);
@@ -162,7 +168,7 @@ a {
     background-size: cover;
     margin: 10px 5%;
     text-align: left;
-    color: white;
+    /* color: white; */
     position: relative;
     z-index: 1;
 }
@@ -178,12 +184,32 @@ a {
     border-radius: 10px;
     z-index: -1;
 }
+#services .services-items h2 {
+    font-size: 2rem;
+    color: white;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    text-shadow: 0px 0px 5px black;
+}
+
+#services .services-items p {
+    color: white;
+    font-size: 1.1rem;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    line-height: 1.4rem;
+    text-shadow: .2px 0px 5px black;
+}
 
 #services .service-bottom .icon img {
     height: 70px;
     width: 70px;
-    margin-bottom: 10px;
+    margin-bottom: 5px;
 }
+
+/* #services .service-bottom h2 p {
+
+} */
 /* End Services Section */
 
 /* keyframes */
