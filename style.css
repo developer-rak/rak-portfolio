@@ -29,6 +29,19 @@ p {
     text-shadow: .2px 0px 5px black;
 }
 
+.section-title {
+    font-size: 3.5rem;
+    font-weight: 350;
+    color: black;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    letter-spacing: .2rem;
+    text-align: center;
+}
+
+.section-title span {
+    color: crimson;
+}
 
 .container {
     min-height: 100vh;
@@ -126,28 +139,12 @@ p {
 /* End Herro section */
 
 /* Services Section */
-#services {
-
-}
 #services .services {
     flex-direction: column;
     text-align: center;
     max-width: 1500px;
     margin: 0 auto;
     padding: 100px 0;
-}
-
-#services .section-title {
-    font-size: 3.5rem;
-    font-weight: 350;
-    color: black;
-    margin-bottom: 10px;
-    text-transform: uppercase;
-    letter-spacing: .2rem;
-    text-align: center;
-}
-#services .section-title span {
-    color: crimson;
 }
 
 #services .service-top p {
@@ -208,11 +205,17 @@ p {
     width: 70px;
     margin-bottom: 5px;
 }
-
-/* #services .service-bottom h2 p {
-
-} */
 /* End Services Section */
+
+/* Projects Section */
+#projects .projects {
+    flex-direction: column;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 100px 0px;
+}
+/* End Projects Section */
+
 
 /* keyframes */
 @keyframes text_reveal_box {
