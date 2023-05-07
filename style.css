@@ -134,8 +134,7 @@ p {
 }
 #hero .btn:hover {
     color: white;
-    background-color: crimson;
-    
+    background-color: crimson; 
 }
 /* End Herro section */
 
@@ -317,6 +316,7 @@ p {
     font-size: 1.8rem;
     font-weight: 500;
     letter-spacing: .5rem;
+    margin-bottom: 10px;
 }
 
 #about .col-right p {
@@ -324,8 +324,47 @@ p {
     font-size: 1.2rem;
     font-weight: 500;
     line-height: 1.5rem;
-    letter-spacing: .05rem;
-    margin-top: 10px;
+    letter-spacing: .04rem;
+    margin-bottom: 20px;
+}
+
+#about .col-right .btn {
+    display: inline-block;
+    padding: 10px 12px;
+    color: crimson;
+    background-color: transparent;
+    border: 2px solid crimson;
+    font-size: 1.8rem;
+    text-transform: uppercase;
+    letter-spacing: .1rem;
+    margin-bottom: 40px;
+    transition: .3s ease;
+    transition-property: background-color, color;
+}
+#about .col-right .btn:hover {
+    color: white;
+    background-color: crimson; 
+}
+
+#about .col-left .about-img .pic {
+    box-shadow: -5px 4px 20px crimson;
+}
+
+#about .col-left .about-img {
+    height: 100%;
+    width: 100%;
+    position: relative;
+    border: 10px solid white;
+}
+#about .col-left .about-img::after {
+    content: '';
+    position: absolute;
+    left: -30px;
+    top: 19px;
+    height: 98%;
+    width: 98%;
+    border: 7px ridge crimson;
+    z-index: -1;
 }
 /* End About Section */
 
