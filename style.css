@@ -41,6 +41,7 @@ p {
 
 .section-title span {
     color: crimson;
+    font-weight: 500;
 }
 
 .container {
@@ -213,6 +214,39 @@ p {
     max-width: 1200px;
     margin: 0 auto;
     padding: 100px 0px;
+}
+
+#projects .projects-header h1 {
+    margin-bottom: 50px;
+}
+
+#projects .all-projects {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#projects .project-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 80%;
+    margin: 20px auto;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+#projects .project-info {
+    padding: 30px;
+    flex-basis: 50%;
+    height: 100%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    background-color: crimson;
 }
 /* End Projects Section */
 
