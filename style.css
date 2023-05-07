@@ -285,7 +285,49 @@ p {
     background-image: linear-gradient(60deg, #ce294a 0%, #ba445b 100%);
     opacity: .4;
 }
+
+#projects .project-item .project-img:hover img {
+    transform: scale(1.1);
+}
+#projects .project-img img {
+    transition: .3s ease transform;
+}
+
 /* End Projects Section */
+
+/* About Section */
+#about .about {
+    flex-direction: column-reverse;
+    text-align: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 100px 20px;
+}
+
+#about .col-left {
+    width: 250px;
+    height: 360px;
+}
+
+#about .col-right {
+    width: 100%;
+}
+
+#about .col-right h2 {
+    font-size: 1.8rem;
+    font-weight: 500;
+    letter-spacing: .5rem;
+}
+
+#about .col-right p {
+    color: black;
+    font-size: 1.2rem;
+    font-weight: 500;
+    line-height: 1.5rem;
+    letter-spacing: .05rem;
+    margin-top: 10px;
+}
+/* End About Section */
 
 
 /* keyframes */
