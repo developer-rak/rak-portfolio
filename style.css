@@ -53,6 +53,17 @@ p {
     /* border: 5spx solid red; */
 }
 
+.brand h1 {
+    font-size: 2.5rem;
+    color: white;
+    text-transform: uppercase;
+    margin-bottom: 8px;
+}
+
+.brand h1 span {
+    color: orange;
+}
+
 /* Hero section */
 #hero {
     background-image: url(img/men.jpg);
@@ -419,6 +430,40 @@ p {
 /* Footer */
 #footer {
     background-image: linear-gradient(60deg, #ce294a 0%, #ba445b 100%);
+}
+
+#footer .footer {
+    min-height: 200px;
+    flex-direction: column;
+    padding-top: 50px;
+    padding-bottom: 10px;
+}
+
+#footer h2 {
+    color: white;
+    font-weight: 500px;
+    font-size: 2rem;
+    letter-spacing: .2rem;
+    margin-bottom: 10px;
+}
+
+#footer .social-icon {
+    display: flex;
+    margin-bottom: 30px;
+}
+
+#footer .social-item {
+    height: 50px;
+    width: 50px;
+    margin: 0 5px;
+}
+
+#footer .social-item img {
+    filter: grayscale(1);
+    transition: .3s ease filter;
+}
+#footer .social-item:hover img {
+    filter: grayscale(0);
 }
 /* End Footer */
 
