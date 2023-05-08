@@ -490,3 +490,29 @@ p {
     }
 }
 /* end keyframes */
+
+/* Media Query for Tablet */
+@media only screen and (min-width: 768px) {
+    #hero .btn {
+        font-size: 2.5rem;
+        padding: 20px 60px;
+    }
+
+    h1.section-title {
+        font-size: 5rem;
+    }
+
+    /* Hero */
+    #hero h1 {
+        font-size: 5rem;
+    }
+    /* End Hero */
+
+    /* Services */
+    #services .service-bottom .services-items {
+        flex-basis: 45%;
+        
+    }
+    /* End Services */
+}
+/* End Media Query for Tablet */
