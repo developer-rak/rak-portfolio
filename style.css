@@ -605,3 +605,11 @@ p {
     /* End Contact Info */
 }
 /* End Media Query for Tablet */
+
+/* Media Query for Full Screen */
+@media only screen and (min-width: 1200px) {
+    #services .service-bottom .services-items {
+        flex-basis: 22%;
+        margin: 1.5%;
+    }
+/* End Media Query for Full Screen*/
