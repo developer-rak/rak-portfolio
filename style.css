@@ -64,6 +64,22 @@ p {
     color: orange;
 }
 
+/* Header Section */
+#header {
+    position: fixed;
+    z-index: 1000;
+    left: 0;
+    top: 0;
+    width: 100vw;
+    border: 3px solid orange;
+}
+
+#header .header {
+    min-height: 8vh;
+    background-color: rgba(237, 81, 81, 0.20);
+}
+/* End Header Section */
+
 /* Hero section */
 #hero {
     background-image: url(img/men.jpg);
