@@ -103,6 +103,7 @@ p {
     align-items: center;
     z-index: 1;
     overflow-x: hidden;
+    transition: 1s ease left;
 }
 #header .nav-list ul.active {
     left: 0;
@@ -148,6 +149,7 @@ p {
     justify-content: center;
     z-index: 100;
     cursor: pointer;
+    transform: scale(.8);
 }
 
 #header .hamburger .bar {
