@@ -612,6 +612,10 @@ p {
 #footer .social-item:hover img {
     filter: grayscale(0);
 }
+
+.footer span {
+    color: orange;
+}
 /* End Footer */
 
 /* keyframes */
