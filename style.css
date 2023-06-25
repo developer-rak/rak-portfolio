@@ -65,6 +65,10 @@ p {
     color: orange;
 }
 
+.brand h1 a {
+    color: #fff;
+}
+
 /* Header Section */
 #header {
     position: fixed;
